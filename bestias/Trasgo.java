@@ -1,6 +1,8 @@
 package bestias;
 
 import heroe.Heroes;
+import bestias.Bestias;
+
 
 public class Trasgo extends Bestias {
     Heroes heroe;

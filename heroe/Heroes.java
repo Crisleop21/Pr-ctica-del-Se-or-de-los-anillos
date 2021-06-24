@@ -1,4 +1,6 @@
 package heroe;
+
+import bestias.Bestias;
 import ejercito.Ejercito;
 
 public class Heroes extends Ejercito {
