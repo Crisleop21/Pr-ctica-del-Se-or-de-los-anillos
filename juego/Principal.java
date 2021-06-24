@@ -1,29 +1,29 @@
 package juego;
 
+import bestias.Bestias;
 import bestias.Orcos;
 import heroe.Elfos;
 import heroe.Heroes;
 import heroe.Hobbits;
 import bestias.Trasgo;
+import ejercito.Ejercito;
 
 public class Principal {
     public static void main (String args[]){
-        Heroes[] ejeHeroes = new Heroes[];
+           
+        Heroes h1 = new Heroes("Legolas", 150, 30);
+        Heroes h2 = new Heroes("Frodo", 20, 10);
+
+        Bestias b1 = new Bestias("Lurtz", 200, 60);
         
-
-       
-        List<Bestias> ejerBestias = new ArrayList<>();
-
-        ejerHero.add(new Elfos("Legolas", 150, 30));
+        Orcos or = new Orcos("Shagrat", 220, 50);
         
-        ejerHero.add(new Hobbits("Frodo", 20, 10));
+        Trasgo tr = new Trasgo("Uglúk", 120, 30);
 
-        ejerBestias.add(new Orcos("Lurtz", 200, 60));
-        ejerBestias.add(new Orcos("Shagrat", 220, 50));
-        ejerBestias.add(new Trasgo("Uglúk", 120, 30));
-        ejerBestias.add(new Trasgo("Mauhúr", 100, 30));
+        Trasgo tr1 = new Trasgo("Mauhúr", 100, 30);
 
-        Juego.juego(ejerHero, ejerBestias);
+
+        Juego.juego(ejercitoHeroes,ejercitoBestias);
 
     }
     
